@@ -13,4 +13,4 @@ $(function(){
       $(this).parent(".content").slideUp("slow");
     })
   
-  });
+  })
