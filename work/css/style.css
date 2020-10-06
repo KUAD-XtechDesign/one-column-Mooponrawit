@@ -4,7 +4,7 @@ body{
   }
   
   .wrapper{
-    background-color: #fff;
+    background-color: rgba(217, 235, 255, 0.466);
   }
   
   img{
@@ -19,7 +19,7 @@ body{
     display: none;
     position: relative;
     padding: 30px;
-    background-color: rgb(250, 235, 215,0.2);
+    background-color: rgba(194, 142, 75, 0.2);
     margin-bottom: 50px;
   }
   
