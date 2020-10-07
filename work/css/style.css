@@ -2,9 +2,24 @@ body{
     line-height: 2;
     font-family: 'Noto Sans JP', sans-serif;
   }
+  span{
+    margin: 330px;
+    padding: 0 20px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  span1{
+    margin: 400px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   
   .wrapper{
-    background-color: rgba(217, 235, 255, 0.466);
+    background-color: rgba(255, 255, 255, 0.466);
   }
   
   img{
@@ -19,7 +34,7 @@ body{
     display: none;
     position: relative;
     padding: 50px;
-    background-color: rgb(180, 215, 255);
+    background-color: rgb(136, 136, 136);
     margin-bottom: 50px;
   }
   
