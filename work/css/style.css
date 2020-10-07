@@ -1,0 +1,69 @@
+body{
+    line-height: 2;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .wrapper{
+    background-color: rgba(217, 235, 255, 0.466);
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  .img_button img{
+    display: block;
+  }
+  
+  .content{
+    display: none;
+    position: relative;
+    padding: 50px;
+    background-color: rgb(180, 215, 255);
+    margin-bottom: 50px;
+  }
+  
+  .img_button{
+    transition: 0.5s all;
+    cursor: pointer;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    position: relative;
+  }
+  
+  .img_button::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgba(217, 235, 255, 0.466);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s opacity;
+  }
+  
+  .img_button:hover::after{
+    opacity: 1;
+  }
+  
+  /* 横並び追加 */
+  .txt_img{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 30vh;
+  }
+  
+  .img{
+    width: 20%;
+  }
+  
+  .txt{
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #img01{
+    margin-top: 50px;
+  }
