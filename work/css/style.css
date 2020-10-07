@@ -20,13 +20,13 @@ body{
     position: relative;
     padding: 50px;
     background-color: rgb(180, 215, 255);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   
   .img_button{
     transition: 0.5s all;
     cursor: pointer;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 50px;
     position: relative;
   }
@@ -50,9 +50,9 @@ body{
   /* 横並び追加 */
   .txt_img{
     display: flex;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
-    min-height: 80vh;
+    min-height: 30vh;
   }
   
   .img{
