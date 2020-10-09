@@ -82,11 +82,11 @@ body{
     margin-top: 50px;
   }
 
-  .each_work img{
+  .each_work .img_button{
     width: 100%;
     transition-duration: 0.5s;
   }
-  .each_work:hover img{
+  .each_work:hover .img_button{
     transform: scale(1.2);
     transition-duration: 0.5s;
   }
